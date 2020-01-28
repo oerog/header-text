@@ -4,6 +4,7 @@
     color:  #333;
     content: "Here is some text";
 }
-.archetype-regular #main.no-text .d-header .title::after {
+.archetype-regular #main.no-text .d-header .title::after,
+.archetype-private_message #main.no-text .d-header .title::after {
     display:none;
 }
